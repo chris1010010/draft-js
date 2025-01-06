@@ -32,4 +32,8 @@ module.exports = {
   UNDERLINE: {
     textDecoration: 'underline',
   },
+
+  OVERLINE: {
+    textDecoration: 'overline',
+  },
 };
