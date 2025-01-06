@@ -50,6 +50,9 @@ const NestedRichTextEditorUtil: RichTextUtils = {
       case 'underline':
         return NestedRichTextEditorUtil.toggleInlineStyle(editorState, 'UNDERLINE');
 
+      case 'overline':
+        return NestedRichTextEditorUtil.toggleInlineStyle(editorState, 'OVERLINE');
+
       case 'code':
         return NestedRichTextEditorUtil.toggleCode(editorState);
 

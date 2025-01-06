@@ -57,6 +57,9 @@ const RichTextEditorUtil: RichTextUtils = {
       case 'underline':
         return RichTextEditorUtil.toggleInlineStyle(editorState, 'UNDERLINE');
 
+      case 'overline':
+        return RichTextEditorUtil.toggleInlineStyle(editorState, 'OVERLINE');
+
       case 'strikethrough':
         return RichTextEditorUtil.toggleInlineStyle(editorState, 'STRIKETHROUGH');
 
